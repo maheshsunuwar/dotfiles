@@ -1,0 +1,32 @@
+# put this file in ~/.jupyter/custom as custom.css
+
+.jp-RenderedText[data-mime-type='application/vnd.jupyter.stdout'] {
+    padding:15px;
+    color: #155724;
+    background-color: #c0e4c8;
+    border-color: #c3e6cb;
+}
+
+.jp-RenderedText[data-mime-type='text/plain'] {
+    padding:15px;
+    color: #155724;
+    background-color: #c0e4c8;
+    border-color: #c3e6cb;
+}
+.jp-MarkdownOutput {
+    background: #3e84ba;
+    color: #f8f8f8 !important;
+}
+
+.jp-Toolbar .jp-ToolbarButtonComponent {
+    color: var(--jp-ui-font-color1);
+    background: white;
+}
+
+.jp-Toolbar .jp-ToolbarButtonComponent:hover{
+    background: #e6e3e3;
+}
+
+.jp-RenderedHTMLCommon a:visited {
+    color: #ebbbff !important;
+}
