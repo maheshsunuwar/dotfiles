@@ -30,3 +30,13 @@
 .jp-RenderedHTMLCommon a:visited {
     color: #ebbbff !important;
 }
+
+.jp-RenderedHTMLCommon > *:last-child {
+    background-color: #3b7bac !important;
+}
+
+.jp-RenderedHTMLCommon pre, .jp-RenderedHTMLCommon code {
+    color: white !important;
+    padding: 6px !important;
+    background-color: transparent !important;
+}
